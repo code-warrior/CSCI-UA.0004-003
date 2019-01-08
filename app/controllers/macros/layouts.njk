@@ -1,0 +1,48 @@
+{#
+   // -------------------------------------------------------------------------
+   // HEAD
+   //
+   // For SEO purposes, title should not exceed 65 chars.
+   // <!--                                                          -->
+   //
+   // For SEO purposes, description should not exceed 160 chars
+   // <!--                                                                                                                                                         -->
+   // -------------------------------------------------------------------------
+#}
+{% macro head(title, description) -%}
+<head>
+   <meta charset="utf-8">
+   <title>{{ title }}</title>
+   <meta name="description" content="{{ description }}">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+{%- endmacro %}
+
+{#
+   // -------------------------------------------------------------------------
+   // NAV
+   //
+   // This macro accepts a single parameter, currentPage, which sets a class
+   // called “current” on the li element that contains the link to the current
+   // page.
+   // -------------------------------------------------------------------------
+#}
+{% macro nav(currentPage) -%}
+<nav>
+   <ul>
+      <li{% if currentPage == 'home' %} class="current"{% endif -%}><a href="index.html"><span class="fa fa-home"></span><br>home</a></li>
+      <li{% if currentPage == 'prerequisites' %} class="current"{% endif -%}><a href="prerequisities.html"><span class="fa fa-envelope"></span><br>prerequisites</a></li>
+      <li{% if currentPage == 'description' %} class="current"{% endif -%}><a href="index.html"><span class="fa fa-info"></span><br>description</a></li>
+      <li{% if currentPage == 'disabilities' %} class="current"{% endif -%}><a href="students-with-disabilities.html"><span class="fa fa-info"></span><br>students w/disabilities</a></li>
+      <li{% if currentPage == 'learning-outcomes' %} class="current"{% endif -%}><a href="index.html"><span class="fa fa-list"></span><br>learning outcomes</a></li>
+      <li{% if currentPage == 'schedule' %} class="current"{% endif -%}><a href="schedule.html"><span class="fa fa-calendar-o"></span><br>schedule</a></li>
+      <li{% if currentPage == 'software-requirements' %} class="current"{% endif -%}><a href="software-requiremenets"><span class="fa fa-download"></span><br>software requirements</a></li>
+      <li{% if currentPage == 'class-policies' %} class="current"{% endif -%}><a href="class-policies.html"><span class="fa fa-gavel"></span><br>class policies</a></li>
+      <li{% if currentPage == 'assignments-and-exams' %} class="current"{% endif -%}><a href="assignments-and-exams.html"><span class="fa fa-pencil"></span><br>assignments and exams</a></li>
+      <li{% if currentPage == 'contact' %} class="current"{% endif -%}><a href="contact.html"><span class="fa fa-envelope"></span><br>contact</a></li>
+      <li{% if currentPage == 'help' %} class="current"{% endif -%}><a href="help.html"><span class="fa fa-question"></span><br>help</a></li>
+   </ul>
+</nav>
+{%- endmacro %}
