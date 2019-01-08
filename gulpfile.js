@@ -52,7 +52,7 @@ gulp.task(`default`, [`compileHTMLForDev`],
             port: 9000,
             reloadDelay: 100,
             server: {
-                baseDir: [`./`, `./app/`]
+                baseDir: [`./temp`, `./app/`]
             }
         });
 
