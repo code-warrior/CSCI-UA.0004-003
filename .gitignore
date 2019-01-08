@@ -278,3 +278,4 @@ typings/
 .nfs*
 
 temp/
+app/css/
