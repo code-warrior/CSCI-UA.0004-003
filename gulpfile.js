@@ -1,6 +1,7 @@
 const gulp = require(`gulp`);
 const del = require(`del`);
 const HTMLPreprocessor = require(`gulp-nunjucks-render`);
+const HTMLCompressor = require(`gulp-htmlmin`);
 const browserSync = require(`browser-sync`);
 const data = require(`gulp-data`);
 const reload = browserSync.reload;
@@ -18,6 +19,23 @@ gulp.task(`compileHTML`, function () {
             return require(`./app/models/data.json`);
         }))
         .pipe(HTMLPreprocessor())
+/**
+ * COMPILE HTML FOR PROD
+ */
+gulp.task(`compileHTMLForProd`, function () {
+    HTMLPreprocessor.nunjucks.configure({watch: false});
+
+    return gulp.src([
+        `./app/views/*.html/`,
+        `./app/views/**/*.html/`])
+        .pipe(data(function () {
+            return require(`./app/models/data.json`);
+        }))
+        .pipe(HTMLPreprocessor())
+        .pipe(HTMLCompressor({
+            removeComments: true,
+            collapseWhitespace: true
+        }))
         .pipe(gulp.dest(`./`));
 });
 
