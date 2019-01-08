@@ -7,9 +7,9 @@ const data = require(`gulp-data`);
 const reload = browserSync.reload;
 
 /**
- * COMPILE HTML
+ * COMPILE HTML FOR DEV
  */
-gulp.task(`compileHTML`, function () {
+gulp.task(`compileHTMLForDev`, function () {
     HTMLPreprocessor.nunjucks.configure({watch: false});
 
     return gulp.src([
@@ -42,7 +42,7 @@ gulp.task(`compileHTMLForProd`, function () {
 /**
  * SERVE
  */
-gulp.task(`default`, [`compileHTML`],
+gulp.task(`default`, [`compileHTMLForDev`],
     function () {
         browserSync({
             notify: true,
