@@ -71,7 +71,7 @@ gulp.task(`default`, [`compileHTMLForDev`],
 gulp.task(`clean`, function () {
     var fs = require(`fs`),
         i,
-        foldersToDelete = [``];
+        foldersToDelete = [`./temp`];
 
     for (i = 0; i < foldersToDelete.length; i++) {
         try {
