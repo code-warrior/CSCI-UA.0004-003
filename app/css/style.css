@@ -3,3 +3,8 @@
    padding: 0;
    border: 0;
 }
+
+:root {
+   --primary-color: #222;
+   --secondary-color: #350125;
+}
