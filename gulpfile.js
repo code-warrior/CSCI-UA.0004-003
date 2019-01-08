@@ -19,6 +19,9 @@ gulp.task(`compileHTMLForDev`, function () {
             return require(`./app/models/data.json`);
         }))
         .pipe(HTMLPreprocessor())
+        .pipe(gulp.dest(`./temp`));
+});
+
 /**
  * COMPILE HTML FOR PROD
  */
