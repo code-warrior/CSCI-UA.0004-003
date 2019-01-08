@@ -63,7 +63,8 @@ gulp.task(`default`, [`compileHTMLForDev`],
             `./app/css/*.css`
         ],
         [`compileHTML`]).on(`change`, reload);
-    });
+    }
+);
 
 /**
  * CLEAN
