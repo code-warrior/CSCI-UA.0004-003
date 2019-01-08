@@ -2,9 +2,38 @@ const gulp = require(`gulp`);
 const del = require(`del`);
 const HTMLPreprocessor = require(`gulp-nunjucks-render`);
 const HTMLCompressor = require(`gulp-htmlmin`);
+const CSSCompiler = require('gulp-sass');
 const browserSync = require(`browser-sync`);
 const data = require(`gulp-data`);
 const reload = browserSync.reload;
+
+/**
+ * COMPILE CSS FOR DEV
+ */
+gulp.task(`compileCSSForDev`, function () {
+    return gulp.src([
+        `./app/sass/*.scss`,
+        `./app/sass/**/*.scss`])
+        .pipe(CSSCompiler({
+            outputStyle: 'expanded',
+            precision: 10
+        }).on('error', CSSCompiler.logError))
+        .pipe(gulp.dest(`./temp/css`));
+});
+
+/**
+ * COMPILE CSS FOR PROD
+ */
+gulp.task(`compileCSSForDev`, function () {
+    return gulp.src([
+        `./app/sass/*.scss`,
+        `./app/sass/**/*.scss`])
+        .pipe(CSSCompiler({
+            outputStyle: 'compressed',
+            precision: 10
+        }).on('error', CSSCompiler.logError))
+        .pipe(gulp.dest(`./css`));
+});
 
 /**
  * COMPILE HTML FOR DEV
@@ -45,7 +74,7 @@ gulp.task(`compileHTMLForProd`, function () {
 /**
  * SERVE
  */
-gulp.task(`default`, [`compileHTMLForDev`],
+gulp.task(`default`, [`compileHTMLForDev`, `compileCSSForDev`],
     function () {
         browserSync({
             notify: true,
