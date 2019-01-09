@@ -72,7 +72,12 @@ gulp.task(`compileHTMLForProd`, function () {
 });
 
 /**
- * SERVE
+ * BUILD
+ */
+gulp.task(`build`, [`compileHTMLForProd`, `compileCSSForProd`]);
+
+/**
+ * DEFAULT
  */
 gulp.task(`default`, [`compileHTMLForDev`, `compileCSSForDev`],
     function () {
