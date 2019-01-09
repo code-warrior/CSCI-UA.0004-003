@@ -10,7 +10,7 @@ const reload = browserSync.reload;
 /**
  * COMPILE CSS FOR DEV
  */
-gulp.task(`compileCSSForDev`, function () {
+gulp.task(`compileCSSForDev`, () => {
     return gulp.src([
         `./app/sass/*.scss`,
         `./app/sass/**/*.scss`])
@@ -24,7 +24,7 @@ gulp.task(`compileCSSForDev`, function () {
 /**
  * COMPILE CSS FOR PROD
  */
-gulp.task(`compileCSSForProd`, function () {
+gulp.task(`compileCSSForProd`, () => {
     return gulp.src([
         `./app/sass/*.scss`,
         `./app/sass/**/*.scss`])
@@ -38,7 +38,7 @@ gulp.task(`compileCSSForProd`, function () {
 /**
  * COMPILE HTML FOR DEV
  */
-gulp.task(`compileHTMLForDev`, function () {
+gulp.task(`compileHTMLForDev`, () => {
     HTMLPreprocessor.nunjucks.configure({watch: false});
 
     return gulp.src([
@@ -54,7 +54,7 @@ gulp.task(`compileHTMLForDev`, function () {
 /**
  * COMPILE HTML FOR PROD
  */
-gulp.task(`compileHTMLForProd`, function () {
+gulp.task(`compileHTMLForProd`, () => {
     HTMLPreprocessor.nunjucks.configure({watch: false});
 
     return gulp.src([
@@ -80,7 +80,7 @@ gulp.task(`build`, [`compileHTMLForProd`, `compileCSSForProd`]);
  * DEFAULT
  */
 gulp.task(`default`, [`compileHTMLForDev`, `compileCSSForDev`],
-    function () {
+    () => {
         browserSync({
             notify: true,
             port: 9000,
@@ -103,7 +103,7 @@ gulp.task(`default`, [`compileHTMLForDev`, `compileCSSForDev`],
 /**
  * CLEAN
  */
-gulp.task(`clean`, function () {
+gulp.task(`clean`, () => {
     let fs = require(`fs`),
         i,
         foldersToDelete = [`./temp`];
