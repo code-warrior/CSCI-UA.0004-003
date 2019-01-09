@@ -1,0 +1,5 @@
+@mixin preserve-css-variable($css-variable: null, $value: null) {
+   @if ($css-variable and $value) {
+      #{$css-variable}: $value;
+   }
+}
