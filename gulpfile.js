@@ -24,7 +24,7 @@ gulp.task(`compileCSSForDev`, function () {
 /**
  * COMPILE CSS FOR PROD
  */
-gulp.task(`compileCSSForDev`, function () {
+gulp.task(`compileCSSForProd`, function () {
     return gulp.src([
         `./app/sass/*.scss`,
         `./app/sass/**/*.scss`])
