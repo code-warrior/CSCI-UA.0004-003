@@ -1,3 +1,5 @@
+@import 'mixins';
+
 * {
    margin: 0;
    border: 0;
@@ -5,6 +7,6 @@
 }
 
 :root {
-   --primary-color: #222;
-   --secondary-color: #350125;
+   @include preserve-css-variable(--primary-color, #222);
+   @include preserve-css-variable(--secondary-color, #350125);
 }
