@@ -47,6 +47,9 @@ gulp.task(`compileHTMLForDev`, () => {
         .pipe(data(function () {
             return require(`./app/models/data.json`);
         }))
+        .pipe(data(function () {
+            return require(`./app/models/links.json`);
+        }))
         .pipe(HTMLPreprocessor())
         .pipe(gulp.dest(`./temp`));
 });
@@ -62,6 +65,9 @@ gulp.task(`compileHTMLForProd`, () => {
         `./app/views/**/*.html/`])
         .pipe(data(function () {
             return require(`./app/models/data.json`);
+        }))
+        .pipe(data(function () {
+            return require(`./app/models/links.json`);
         }))
         .pipe(HTMLPreprocessor())
         .pipe(HTMLCompressor({
@@ -94,9 +100,10 @@ gulp.task(`default`, [`compileHTMLForDev`, `compileCSSForDev`],
             `./app/views/*.html`,
             `./app/controllers/**/*.njk`,
             `./app/controllers/*.njk`,
-            `./app/css/*.css`
+            `./app/sass/*.scss`,
+            `./app/models/*.json`
         ],
-        [`compileHTML`]).on(`change`, reload);
+        [`compileHTMLForDev`, `compileCSSForDev`]).on(`change`, reload);
     }
 );
 

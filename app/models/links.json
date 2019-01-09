@@ -1,0 +1,62 @@
+{
+  "links": [
+    {
+      "nav": [
+        {
+          "name": "home",
+          "anchor": "index.html",
+          "class": "fa fa-home"
+        },
+        {
+          "name": "description",
+          "anchor": "description.html",
+          "class": "fa fa-info"
+        },
+        {
+          "name": "students with disabilities",
+          "anchor": "students-with-disabilities.html",
+          "class": "fa fa-info"
+        },
+        {
+          "name": "learning outcomes",
+          "anchor": "learning-outcomes.html",
+          "class": "fa fa-list"
+        },
+        {
+          "name": "schedule",
+          "anchor": "schedule.html",
+          "class": "fa fa-calendar-o"
+        },
+        {
+          "name": "software requirements",
+          "anchor": "software-requirements.html",
+          "class": "fa fa-download"
+        },
+        {
+          "name": "class policies",
+          "anchor": "class-policies.html",
+          "class": "fa fa-gavel"
+        },
+        {
+          "name": "assignments and exams",
+          "anchor": "assignments-and-exams.html",
+          "class": "fa fa-pencil"
+        },
+        {
+          "name": "contact",
+          "anchor": "contact.html",
+          "class": "fa fa-envelope"
+        },
+        {
+          "name": "help",
+          "anchor": "help.html",
+          "class": "fa fa-question"
+        }
+      ]
+    },
+    {
+      "name": "Fall 2019 Calendar",
+      "anchor": "https://www.nyu.edu/registrar/calendars/university-academic-calendar.html#1194"
+    }
+  ]
+}
