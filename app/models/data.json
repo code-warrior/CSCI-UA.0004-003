@@ -1,15 +1,12 @@
 {
   "data": [
     {
-      "section": "",
-      "icon": {
-        "font_awesome_class": ""
-      },
+      "section": "masthead",
       "content": [
-        "",
-        "",
-        "",
-        ""
+        "Mondays and Wednesdays",
+        "12:30 PM – 1:45 PM",
+        "28 January 2019 – 20 May 2019",
+        "<abbr title='Courant Institute’s Warren Weaver Hall'>CIWW</abbr> 101"
       ]
     }
   ]
