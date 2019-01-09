@@ -6,6 +6,15 @@
 {% include 'app/controllers/blocks/ie_version_warning.njk' %}
 {% include 'app/controllers/blocks/header.njk' %}
 {{ layouts.nav('home', links) }}
+
+{% for data in data %}
+   {% for section in data.section %}
+      {% for content in section.content %}
+         <p>{{ content | safe }}</p>
+      {% endfor %}
+   {% endfor %}
+{% endfor %}
+
 {% include 'app/controllers/blocks/footer.njk' %}
 </body>
 </html>
