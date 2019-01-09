@@ -24,13 +24,12 @@
    // ------------------------------------------------------------------------------
    // NAV
    //
-   // currentPage is either an empty string or the string “current” that is
-   //    applied to the <li> element to indicate which page is the current page
-   //    being viewed by the user.
+   // currentPage is either an empty string or the name of the current page. If the
+   //    latter, then the class “current” is applied to the <li> element to indicate
+   //    which page is the current page being viewed by the user.
    //
-   // links is a JSON object that references links.json (in the folder
-   //    app/models) that contains all the names and anchors used in this
-   //    navigation.
+   // links is a JSON object that references links.json (in the folder app/models)
+   //    that contains all the names, anchors, and classes used in this navigation.
    // ------------------------------------------------------------------------------
 #}
 {% macro nav(currentPage, links) -%}
