@@ -1,0 +1,35 @@
+@import 'variables';
+
+footer {
+   nav {
+      margin: auto;
+      text-align: center;
+      font-size: .75rem;
+
+      @media (max-width: $page-width--bet-tablet-and-phone) {
+         font-size: .6875rem;
+      }
+
+      ul {
+         li {
+            display: inline;
+
+            &:not(:last-of-type) {
+               &::after {
+                  // Inject a bar surrounded by figure spaces
+                  content: ' | ';
+
+                  @media (max-width: $page-width--bet-tablet-and-phone) {
+                     content: none;
+                  }
+               }
+            }
+
+            @media (max-width: $page-width--bet-tablet-and-phone) {
+               display: block;
+               margin: 4px 0;
+            }
+         }
+      }
+   }
+}
