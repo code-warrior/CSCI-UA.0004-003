@@ -52,6 +52,32 @@
           "anchor": "help.html",
           "class": "fa fa-question"
         }
+      ],
+      "footer": [
+        {
+          "name": "roy.vanegas.org",
+          "anchor": "https://roy.vanegas.org/teaching/at-nyu/CSCI-UA.0004-003"
+        },
+        {
+          "name": "cs.nyu.edu",
+          "anchor": "https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-003/"
+        },
+        {
+          "name": "GitHub",
+          "anchor": "https://github.com/code-warrior/CSCI-UA.0004-003"
+        },
+        {
+          "name": "Nunjucks",
+          "anchor": "https://mozilla.github.io/nunjucks/"
+        },
+        {
+          "name": "Gulp",
+          "anchor": "https://gulpjs.com/"
+        },
+        {
+          "name": "<abbr title='Syntactically Awesome Style Sheets'>Sass</abbr>",
+          "anchor": "https://sass-lang.com/"
+        }
       ]
     },
     {

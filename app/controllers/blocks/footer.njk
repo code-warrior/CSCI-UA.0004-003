@@ -1,5 +1,5 @@
 <footer>
-   <div>
-      Mirrors at <a href="https://roy.vanegas.org/teaching/at-nyu/CSCI-UA.0004-003" target="_blank" rel="noopener">roy.vanegas.org</a> and <a href="https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-003/" target="_blank" rel="noopener">cs.nyu.edu</a>　|　Code and issues at <a href="https://github.com/code-warrior/CSCI-UA.0004-003" target="_blank" rel="noopener"><span class="fa fa-github"></span></a>　|　Built with <a href="https://mozilla.github.io/nunjucks/" target="_blank" rel="noopener">Nunjucks</a>, <a href="https://gulpjs.com/" target="_blank" rel="noopener">Gulp</a>, and <a href="https://sass-lang.com/" target="_blank" rel="noopener">Sass</a>.
-   </div>
+   <nav>
+      Mirrors at <a href="{{ links[0].footer[0].anchor }}" target="_blank" rel="noopener">{{ links[0].footer[0].name }}</a> and <a href="{{ links[0].footer[1].anchor }}" target="_blank" rel="noopener">{{ links[0].footer[1].name }}</a> | Code and issues at <a href="{{ links[0].footer[2].anchor }}" target="_blank" rel="noopener">{{ links[0].footer[2].name }}</span></a> | Built with <a href="{{ links[0].footer[3].anchor }}" target="_blank" rel="noopener">{{ links[0].footer[3].name }}</a>, <a href="{{ links[0].footer[4].anchor }}" target="_blank" rel="noopener">{{ links[0].footer[4].name }}</a>, and <a href="{{ links[0].footer[5].anchor }}" target="_blank" rel="noopener">{{ links[0].footer[5].name | safe }}</a>
+   </nav>
 </footer>
