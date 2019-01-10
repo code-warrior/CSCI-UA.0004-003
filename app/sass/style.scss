@@ -15,3 +15,8 @@
    @include preserve-css-variable(--primary-color, #222);
    @include preserve-css-variable(--secondary-color, #350125);
 }
+
+body {
+   color: var(--primary-color);
+   font-family: 'Barlow', sans-serif;
+}
