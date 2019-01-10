@@ -1,0 +1,13 @@
+$grid--column-width: 60px;
+$grid--gutter-width: 20px;
+$grid--unit: ($grid--column-width + $grid--gutter-width);
+$grid--leading: 20px;
+
+$page-width--desktop: 960px;
+$page-width--tablet: 768px;
+$page-width--bet-tablet-and-phone:  570px;
+$page-width--phone: 400px;
+
+$offset--top-heading: 4px;
+
+$height--page-heading: (4 * $grid--leading);
