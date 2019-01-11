@@ -3,11 +3,6 @@
     {
       "nav": [
         {
-          "name": "home",
-          "anchor": "index.html",
-          "class": "fa fa-home"
-        },
-        {
           "name": "description",
           "anchor": "description.html",
           "class": "fa fa-info"
