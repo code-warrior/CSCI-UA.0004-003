@@ -28,3 +28,11 @@ body {
 abbr {
    text-decoration: none;
 }
+
+a {
+   color: var(--secondary-color);
+
+   &:link {
+      text-decoration: none;
+   }
+}
