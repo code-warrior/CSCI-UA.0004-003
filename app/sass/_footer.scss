@@ -4,10 +4,10 @@ footer {
    nav {
       margin: auto;
       text-align: center;
-      font-size: .75rem;
+      font-size: .875rem;
 
-      @media (max-width: $page-width--bet-tablet-and-phone) {
-         font-size: .6875rem;
+      @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
+         font-size: .75rem;
       }
 
       ul {
