@@ -52,3 +52,37 @@ header {
       }
    }
 }
+
+.masthead {
+   background-color: var(--bg-color--heading);
+   padding: 12px 0;
+   text-align: center;
+
+   @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
+      font-size: .85rem;
+   }
+
+   @media (max-width: 640px) {
+      font-size: .75rem;
+   }
+
+   span {
+      &:not(:last-of-type) {
+         &::after {
+            content: ' ⋯ ';
+
+            @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
+               content: ' ⋯ ';
+            }
+
+            @media (max-width: 640px) {
+               content: none;
+            }
+         }
+      }
+
+      @media (max-width: 640px) {
+         display: block;
+      }
+   }
+}
