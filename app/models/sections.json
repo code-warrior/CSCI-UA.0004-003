@@ -61,6 +61,12 @@
             "Download all the browsers available at <a href=\"https://browsehappy.com/\" target=\"_blank\" rel=\"noopener\">Browse Happy</a>. Some of the students in my more in-depth classes might also want <a href=\"https://www.google.com/chrome/browser/canary.html\" target=\"_blank\" rel=\"noopener\">Chrome Canary</a>, <a href=\"https://developer.apple.com/safari/technology-preview/\" target=\"_blank\" rel=\"noopener\">Safari Technology Preview</a>, <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#developer\" target=\"_blank\" rel=\"noopener\">Firefox Developer Edition</a>, and <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly\" target=\"_blank\" rel=\"noopener\">Firefox Nightly</a>. I use Chrome and Firefox in class."
           ]
         },
+        {
+          "section_sub_heading": "File Transfer Protocol (Mac, Windows, and Linux)",
+          "content": [
+            "To transfer files between our local machines and a server, we’ll use <a href=\"https://filezilla-project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener\">FileZilla</a>."
+          ]
+        },
         }
       ]
     }
