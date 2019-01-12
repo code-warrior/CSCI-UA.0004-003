@@ -42,6 +42,13 @@
           "content": [
           "All in-class examples, assignments, and help is done via GitHub. Once you’ve opened an account at <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener\">GitHub</a>, download the client for your computer <a href=\"https://desktop.github.com/\" target=\"_blank\" rel=\"noopener\">here</a>."
           ]
+        },
+        {
+          "section_sub_heading": "Text Editor (Mac, Windows, and Linux)",
+          "content": [
+            "The code you write will require a text editor. And, although there are many on the market, such as Brackets (open source), Sublime Text (nagware), and Visual Studio Code (open source), <a href=\"https://atom.io/\" target=\"_blank\" rel=\"noopener\">Atom</a> (open source) is the only editor supported in class."
+          ]
+        },
         }
       ]
     }
