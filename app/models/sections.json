@@ -79,6 +79,11 @@
             "Mac and Linux users do not have to install a Command Line Interface, or <abbr title=\"Command Line Interface\">CLI</abbr>, because these operating systems already have The Terminal installed. Windows users, however, might want to install <a href=\"https://cygwin.com/install.html\" target=\"_blank\" rel=\"noopener\">Cygwin</a>."
           ]
         },
+        {
+          "section_sub_heading": "Web Development Environment Configuration Files",
+          "content": [
+            "Once all the software above has been installed, go <a href=\"https://github.com/code-warrior/web-dev-env-config-files\" target=\"_blank\" rel=\"noopener\">here</a> and follow the instructions in the README.md file, which you should open in Typora."
+          ]
         }
       ]
     }
