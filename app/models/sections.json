@@ -35,7 +35,7 @@
     {
       "id": "software-requirements",
       "title": "software requirements",
-      "content": "All the required software for this course is free. For Mac users, the installation process is automated using <a href=\"https://github.com/code-warrior/install-web-dev-software\" target=\"_blank\" rel=\"noopener\">this script</a>. Windows and Linux users will need to install the software manually. See below.",
+      "content": "All the required software for this course is free. For Mac users, the installation process is automated using <a href=\"https://github.com/code-warrior/install-web-dev-software\" target=\"_blank\" rel=\"noopener\">this script</a>. Windows and Linux users, however, will need to install the software manually. See below.",
       "data": [
         {
           "section_sub_heading": "GitHub (Mac, Windows, and Linux)",
