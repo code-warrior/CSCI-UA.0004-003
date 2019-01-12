@@ -49,6 +49,12 @@
             "The code you write will require a text editor. And, although there are many on the market, such as Brackets (open source), Sublime Text (nagware), and Visual Studio Code (open source), <a href=\"https://atom.io/\" target=\"_blank\" rel=\"noopener\">Atom</a> (open source) is the only editor supported in class."
           ]
         },
+        {
+          "section_sub_heading": "Markdown Editor/Viewer (Mac, Windows, and Linux)",
+          "content": [
+            "Although a text editor will suffice to view and edit Markdown files, some may want a full-featured program to deal with Markdown. We’ll use <a href=\"https://typora.io/\" target=\"_blank\" rel=\"noopener\">Typora</a> in class."
+          ]
+        },
         }
       ]
     }
