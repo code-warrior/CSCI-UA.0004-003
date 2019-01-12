@@ -6,6 +6,27 @@
 {% include 'app/controllers/blocks/ie_version_warning.njk' %}
 {% include 'app/controllers/blocks/header.njk' %}
 {{ layouts.nav('home', links) }}
+<main>
+   {% for section in sections %}
+   <section id="{{ section.id }}">
+      <h2>{{ section.title }}</h2>
+         {% for paragraphs in section.content %}
+      <p>{{ paragraphs | safe }}</p>
+         {% endfor %}
+         {% for item in section.list %}
+            {% if loop.first %}
+      <ul>
+         <li>{{ item | safe }}</li>
+            {% else %}
+         <li>{{ item | safe }}</li>
+            {% endif %}
+            {% if loop.last %}
+      </ul>
+            {% endif %}
+         {% endfor %}
+   </section>
+   {% endfor %}
+</main>
 {% include 'app/controllers/blocks/footer.njk' %}
 </body>
 </html>
