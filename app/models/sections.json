@@ -55,6 +55,12 @@
             "Although a text editor will suffice to view and edit Markdown files, some may want a full-featured program to deal with Markdown. We’ll use <a href=\"https://typora.io/\" target=\"_blank\" rel=\"noopener\">Typora</a> in class."
           ]
         },
+        {
+          "section_sub_heading": "Browsers (Mac and Windows)",
+          "content": [
+            "Download all the browsers available at <a href=\"https://browsehappy.com/\" target=\"_blank\" rel=\"noopener\">Browse Happy</a>. Some of the students in my more in-depth classes might also want <a href=\"https://www.google.com/chrome/browser/canary.html\" target=\"_blank\" rel=\"noopener\">Chrome Canary</a>, <a href=\"https://developer.apple.com/safari/technology-preview/\" target=\"_blank\" rel=\"noopener\">Safari Technology Preview</a>, <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#developer\" target=\"_blank\" rel=\"noopener\">Firefox Developer Edition</a>, and <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly\" target=\"_blank\" rel=\"noopener\">Firefox Nightly</a>. I use Chrome and Firefox in class."
+          ]
+        },
         }
       ]
     }
