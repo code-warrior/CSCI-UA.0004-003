@@ -1,0 +1,36 @@
+{
+  "sections": [
+    {
+      "id": "description",
+      "title": "description",
+      "content": [
+        "As its title suggests, this course covers the basic ideas, languages, and tools used in the design and construction of modern web pages, and introduces students to a subset of computing principles as they relate to The Web.",
+        "<strong>Note</strong>: There is no prerequisite for this course.",
+        "The common syllabus across all sections of CSCI-UA.0004 may be found <a href=\"https://cs.nyu.edu/courses/fall18/CSCI-UA.0004-006/common-syllabus/\" target=\"_blank\" rel=\"noopener\">here</a>."
+      ]
+    },
+    {
+      "id": "students-with-disabilities",
+      "title": "students with disabilities",
+      "content": [
+        "Students with disabilities can find support information from the University <a href=\"https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html\" target=\"_blank\" rel=\"noopener\">here</a>."
+      ]
+    },
+    {
+      "id": "learning-outcomes",
+      "title": "learning outcomes",
+      "content": [
+        "Upon successful completion of this course, students will understand..."
+      ],
+      "list": [
+        "how to interact with a computer using basic command line interface instructions;",
+        "how to semantically combine HTML with content",
+        "how to style HTML with CSS;",
+        "how HTML, CSS, and JavaScript work in concert to create interactive web sites;",
+        "what role jQuery plays (and has played since 2005) in the web ecosystem;",
+        "how to revision control your work using GitHub;",
+        "and, finally, how to properly set type in web sites."
+      ]
+    }
+  ]
+}

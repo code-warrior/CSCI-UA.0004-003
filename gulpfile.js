@@ -50,6 +50,9 @@ gulp.task(`compileHTMLForDev`, () => {
         .pipe(data(function () {
             return require(`./app/models/links.json`);
         }))
+        .pipe(data(function () {
+            return require(`./app/models/sections.json`);
+        }))
         .pipe(HTMLPreprocessor())
         .pipe(gulp.dest(`./temp`));
 });
@@ -68,6 +71,9 @@ gulp.task(`compileHTMLForProd`, () => {
         }))
         .pipe(data(function () {
             return require(`./app/models/links.json`);
+        }))
+        .pipe(data(function () {
+            return require(`./app/models/sections.json`);
         }))
         .pipe(HTMLPreprocessor())
         .pipe(HTMLCompressor({
