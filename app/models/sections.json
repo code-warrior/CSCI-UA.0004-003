@@ -67,6 +67,12 @@
             "To transfer files between our local machines and a server, we’ll use <a href=\"https://filezilla-project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener\">FileZilla</a>."
           ]
         },
+        {
+          "section_sub_heading": "Fonts (Mac, Windows, and Linux)",
+          "content": [
+            "In addition to the stock issue, monospace/fixed-width fonts included with your <abbr title=\"Operating System\">OS</abbr>, give <a href=\"https://github.com/IBM/plex/releases/tag/v1.2.3\" target=\"_blank\" rel=\"noopener\">IBM Plex</a>, <a href=\"https://www.fontsquirrel.com/fonts/fira-mono\" target=\"_blank\" rel=\"noopener\">Fira Mono</a>, <a href=\"http://font.ubuntu.com/\" target=\"_blank\" rel=\"noopener\">Ubuntu Mono</a>, <a href=\"https://www.fontsquirrel.com/fonts/Anonymous-Pro\" target=\"_blank\" rel=\"noopener\">Anonymous Pro</a>, or <a href=\"https://www.fontsquirrel.com/fonts/Inconsolata\" target=\"_blank\" rel=\"noopener\">Inconsolata</a> a try."
+          ]
+        },
         }
       ]
     }
