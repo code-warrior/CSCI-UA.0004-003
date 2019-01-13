@@ -39,6 +39,10 @@ a {
 }
 
 main {
+   margin: auto;
+   width: $page-width--desktop;
+   line-height: 1.4;
+
    a {
       transition: 275ms;
 
