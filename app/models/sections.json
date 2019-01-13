@@ -100,6 +100,18 @@
       ]
     },
     {
+      "id": "assignments-and-exams",
+      "title": "Assignments and Exams",
+      "content": [
+        "Your final grade is calculated using the following formula:"
+      ],
+      "list": [
+        "<b><a href=\"https://github.com/code-warrior/csci-ua.0004-003--assignments\" target=\"_blank\" rel=\"noopener\">Assignments</a></b>: 40%",
+        "<b>Midterm</b>: 25%",
+        "<b>Final</b>: 35%"
+      ]
+    },
+    {
       "id": "contact",
       "title": "Contact",
       "content": [
