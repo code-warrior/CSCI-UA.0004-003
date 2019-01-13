@@ -106,6 +106,12 @@
         "r.o.y at nyu dot edu is my email address. However, I only communicate with students over email in emergency situations (death, divorce, personal tragedy, pet emergency, etc). For matters related to the class, you’re advised to see me during my office hour or after class."
       ]
     },
+    {
+      "id": "help",
+      "title": "Help",
+      "content": [
+        "I’m available to help you during my office hour, which is 2:00–3:00PM on Mondays in room 308 of Warren Weaver Hall. If you need help outside of this time slot, you can also meet with a tutor. See the <b>Tutoring</b> section of the <a href=\"https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-001/common-syllabus/\" target=\"_blank\" rel=\"noopener\">general syllabus</a> for time and place."
+      ]
     }
   ]
 }
