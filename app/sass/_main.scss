@@ -1,0 +1,21 @@
+@import 'variables';
+
+main {
+   margin: auto;
+   width: $page-width--desktop;
+   line-height: $leading;
+
+   p {
+      margin: 0 0 $margin-bottom;
+   }
+
+   .fa {
+      font-size: $base-typeface-size;
+   }
+
+   .fa-container {
+      display: inline-block;
+      position: relative;
+      bottom: 4px;
+   }
+}

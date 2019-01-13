@@ -8,6 +8,7 @@
 @import 'links';
 @import 'header';
 @import 'nav';
+@import 'main';
 @import 'footer';
 
 * {
@@ -31,10 +32,6 @@ abbr {
    text-decoration: none;
 }
 
-main {
-   margin: auto;
-   width: $page-width--desktop;
-   line-height: 1.4;
 
    }
 }
