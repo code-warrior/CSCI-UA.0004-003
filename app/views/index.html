@@ -10,7 +10,7 @@
 <main>
 {% for section in sections %}
    <section id="{{ section.id }}">
-      <h2>{{ section.title }}</h2>
+      <h2><span class="{{ section.class }}"></span> {{ section.title }}</h2>
 
    {% for paragraphs in section.content %}
       <p>{{ paragraphs | safe }}</p>

@@ -2,6 +2,7 @@
   "sections": [
     {
       "id": "description",
+      "class": "fa fa-info",
       "title": "Description",
       "content": [
         "As its title suggests, this course covers the basic ideas, languages, and tools used in the design and construction of modern web pages, and introduces students to a subset of computing principles as they relate to The Web.",
@@ -12,6 +13,7 @@
     },
     {
       "id": "students-with-disabilities",
+      "class": "fa fa-info",
       "title": "Students with Disabilities",
       "content": [
         "Students with disabilities can find support information from the University <a href=\"https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html\" target=\"_blank\" rel=\"noopener\">here</a>."
@@ -19,6 +21,7 @@
     },
     {
       "id": "learning-outcomes",
+      "class": "fa fa-list",
       "title": "Learning Outcomes",
       "content": [
         "Upon successful completion of this course, students will understand..."
@@ -35,6 +38,7 @@
     },
     {
       "id": "software-requirements",
+      "class": "fa fa-download",
       "title": "Software Requirements",
       "content": [
         "All the required software for this course is free. For Mac users, the installation process is automated using <a href=\"https://github.com/code-warrior/install-web-dev-software\" target=\"_blank\" rel=\"noopener\">this script</a>. Windows and Linux users, however, will need to install the software manually. See below."
@@ -92,6 +96,7 @@
     },
     {
       "id": "class-policies",
+      "class": "fa fa-gavel",
       "title": "Class Policies",
       "content": [
         "<strong>Consuming food in class.</strong> There is <em>no</em> eating <em>inside</em> our classroom. The smell of food is very distracting, even offensive to some, and can linger in a room. Drinks in covered containers, however, are allowed.",
@@ -101,6 +106,7 @@
     },
     {
       "id": "assignments-and-exams",
+      "class": "fa fa-pencil",
       "title": "Assignments and Exams",
       "content": [
         "Your final grade is calculated using the following formula:"
@@ -113,6 +119,7 @@
     },
     {
       "id": "contact",
+      "class": "fa fa-envelope",
       "title": "Contact",
       "content": [
         "r.o.y at nyu dot edu is my email address. However, I only communicate with students over email in emergency situations (death, divorce, personal tragedy, pet emergency, etc). For matters related to the class, see me during my office hour or after class."
@@ -120,6 +127,7 @@
     },
     {
       "id": "help",
+      "class": "fa fa-question",
       "title": "Help",
       "content": [
         "I’m available to help you during my office hour, which is 2:00–3:00PM on Mondays in room 308 of Warren Weaver Hall. If you need help outside of this time slot, you can also meet with a tutor. See the <b>Tutoring</b> section of the <a href=\"https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-001/common-syllabus/\" target=\"_blank\" rel=\"noopener\">general syllabus</a> for time and place."
