@@ -2,7 +2,7 @@
   "sections": [
     {
       "id": "description",
-      "title": "description",
+      "title": "Description",
       "content": [
         "As its title suggests, this course covers the basic ideas, languages, and tools used in the design and construction of modern web pages, and introduces students to a subset of computing principles as they relate to The Web.",
         "<strong>Note</strong>: There is no prerequisite for this course.",
@@ -11,14 +11,14 @@
     },
     {
       "id": "students-with-disabilities",
-      "title": "students with disabilities",
+      "title": "Students with Disabilities",
       "content": [
         "Students with disabilities can find support information from the University <a href=\"https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html\" target=\"_blank\" rel=\"noopener\">here</a>."
       ]
     },
     {
       "id": "learning-outcomes",
-      "title": "learning outcomes",
+      "title": "Learning Outcomes",
       "content": [
         "Upon successful completion of this course, students will understand..."
       ],
@@ -34,8 +34,8 @@
     },
     {
       "id": "software-requirements",
-      "title": "software requirements",
       "content": "All the required software for this course is free. For Mac users, the installation process is automated using <a href=\"https://github.com/code-warrior/install-web-dev-software\" target=\"_blank\" rel=\"noopener\">this script</a>. Windows and Linux users, however, will need to install the software manually. See below.",
+      "title": "Software Requirements",
       "data": [
         {
           "section_sub_heading": "GitHub (Mac, Windows, and Linux)",
