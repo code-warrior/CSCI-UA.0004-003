@@ -36,3 +36,14 @@ abbr {
 
    }
 }
+
+.fa {
+   display: inline-block;
+   border-radius: 50%;
+   background-color: var(--bg-color--heading);
+   width: $background-diameter-for-font-awesome-icon;
+   height: $background-diameter-for-font-awesome-icon;
+   vertical-align: center;
+   text-align: center;
+   line-height: $background-diameter-for-font-awesome-icon;
+}
