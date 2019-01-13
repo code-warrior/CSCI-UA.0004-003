@@ -8,6 +8,7 @@
 {{ layouts.nav('home', links) }}
 
 <main>
+{% include 'app/controllers/blocks/schedule.njk' %}
 {% for section in sections %}
    <section id="{{ section.id }}">
       <h2><span class="{{ section.class }}"></span> {{ section.title }}</h2>
