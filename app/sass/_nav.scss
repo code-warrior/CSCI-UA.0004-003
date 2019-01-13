@@ -1,9 +1,6 @@
 @import 'variables';
 
 .primary-nav {
-   position: sticky;
-   top: 0;
-
    > ul {
       display: flex;
       flex-wrap: wrap;
