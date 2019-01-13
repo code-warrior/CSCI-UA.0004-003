@@ -37,3 +37,20 @@ a {
       text-decoration: none;
    }
 }
+
+main {
+   a {
+      transition: 275ms;
+
+      &:link,
+      &:visited {
+         border-bottom: 2px solid var(--bg-color--heading);
+         border-radius: 6px;
+         padding: 4px;
+      }
+
+      &:hover {
+         background-color: var(--bg-color--heading);
+      }
+   }
+}
