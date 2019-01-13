@@ -5,6 +5,7 @@
 @import 'variables';
 @import 'mixins';
 @import 'headings';
+@import 'links';
 @import 'header';
 @import 'nav';
 @import 'footer';
@@ -30,31 +31,10 @@ abbr {
    text-decoration: none;
 }
 
-a {
-   color: var(--secondary-color);
-
-   &:link {
-      text-decoration: none;
-   }
-}
-
 main {
    margin: auto;
    width: $page-width--desktop;
    line-height: 1.4;
 
-   a {
-      transition: 275ms;
-
-      &:link,
-      &:visited {
-         border-bottom: 2px solid var(--bg-color--heading);
-         border-radius: 6px;
-         padding: 4px;
-      }
-
-      &:hover {
-         background-color: var(--bg-color--heading);
-      }
    }
 }
