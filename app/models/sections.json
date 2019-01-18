@@ -89,7 +89,7 @@
         {
           "section_sub_heading": "Browser Extension for Accessibility Testing",
           "content": [
-            "Install the <a href=\"https://www.deque.com/axe/\" target=\"_blank\" rel=\"noopener\">Axe</a> browser extension for Chrome and/or Firefox."
+            "Available for Chrome and Firefox, <a href=\"https://www.deque.com/axe/\" target=\"_blank\" rel=\"noopener\">Axe</a> is a browser extension that checks the accessibility of your web pages."
           ]
         },
         {
