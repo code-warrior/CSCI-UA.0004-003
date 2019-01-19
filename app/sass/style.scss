@@ -22,6 +22,7 @@
    @include preserve-css-variable(--primary-color, #222);
    @include preserve-css-variable(--secondary-color, #350125);
    @include preserve-css-variable(--tertiary-color, #ffc0cb);
+   @include preserve-css-variable(--tertiary-color--lighter, #ffe9ed);
 }
 
 body {
