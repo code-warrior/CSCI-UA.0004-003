@@ -119,6 +119,9 @@
       ]
     },
     {
+      "id": "schedule"
+    },
+    {
       "id": "assignments-and-exams",
       "class": "fa fa-pencil",
       "title": "Assignments and Exams",
