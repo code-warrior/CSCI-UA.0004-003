@@ -8,21 +8,35 @@
 {{ layouts.nav('home', links) }}
 
 <main>
-{% include 'app/controllers/blocks/schedule.njk' %}
 {% for section in sections %}
+   {% if section.id !== "schedule" %}
    <section id="{{ section.id }}">
       <h2><span class="fa-container"><span class="{{ section.class }}"></span></span> {{ section.title }}</h2>
+      {% for paragraphs in section.content %}
       <p>{{ paragraphs | safe }}</p>
+      {% endfor %}
 
+      {% for item in section.list %}
+         {% if loop.first %}
       <ul>
          <li>{{ item | safe }}</li>
+         {% else %}
          <li>{{ item | safe }}</li>
+         {% endif %}
 
+         {% if loop.last %}
       </ul>
+         {% endif %}
+      {% endfor %}
 
+      {% for data in section.data %}
       <h3>{{ data.section_sub_heading }}</h3>
       <p>{{ data.content | safe }}</p>
+      {% endfor %}
    </section>
+   {% else %}
+      {% include 'app/controllers/blocks/schedule.njk' %}
+   {% endif %}
 {% endfor %}
 </main>
 {% include 'app/controllers/blocks/footer.njk' %}
