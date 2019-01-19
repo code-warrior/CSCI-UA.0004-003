@@ -19,6 +19,14 @@
          }
       }
 
+      tbody {
+         tr {
+            &:nth-child(odd) {
+               background-color: var(--tertiary-color--lighter);
+            }
+         }
+      }
+
       td {
          padding: 12px;
          vertical-align: top;
