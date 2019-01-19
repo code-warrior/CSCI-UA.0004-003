@@ -14,13 +14,13 @@ main {
 
       &:link,
       &:visited {
-         border-bottom: 2px solid var(--bg-color--heading);
+         border-bottom: 2px solid var(--tertiary-color);
          border-radius: 4px;
          padding: 2px 0;
       }
 
       &:hover {
-         background-color: var(--bg-color--heading);
+         background-color: var(--tertiary-color);
       }
    }
 }
