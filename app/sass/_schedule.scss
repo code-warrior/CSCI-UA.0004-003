@@ -2,13 +2,17 @@
 
 #schedule {
    table {
-      margin: auto;
+      margin: (1.4 * $grid--leading) auto;
       width: 100%;
       table-layout: fixed;
       border-collapse: collapse;
 
       thead {
          th {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+            font-size: 1.1rem;
+
             &:first-of-type {
                width: 25%;
             }
