@@ -8,24 +8,9 @@
           "class": "fa fa-info"
         },
         {
-          "name": "students with disabilities",
-          "anchor": "#students-with-disabilities",
-          "class": "fa fa-info"
-        },
-        {
           "name": "learning outcomes",
           "anchor": "#learning-outcomes",
           "class": "fa fa-list"
-        },
-        {
-          "name": "schedule",
-          "anchor": "#schedule",
-          "class": "fa fa-calendar-o"
-        },
-        {
-          "name": "software requirements",
-          "anchor": "#software-requirements",
-          "class": "fa fa-download"
         },
         {
           "name": "class policies",
@@ -33,14 +18,29 @@
           "class": "fa fa-gavel"
         },
         {
-          "name": "assignments and exams",
-          "anchor": "#assignments-and-exams",
-          "class": "fa fa-pencil"
+          "name": "software requirements",
+          "anchor": "#software-requirements",
+          "class": "fa fa-download"
+        },
+        {
+          "name": "students with disabilities",
+          "anchor": "#students-with-disabilities",
+          "class": "fa fa-info"
         },
         {
           "name": "contact",
           "anchor": "#contact",
           "class": "fa fa-envelope"
+        },
+        {
+          "name": "schedule",
+          "anchor": "#schedule",
+          "class": "fa fa-calendar-o"
+        },
+        {
+          "name": "assignments and exams",
+          "anchor": "#assignments-and-exams",
+          "class": "fa fa-pencil"
         },
         {
           "name": "help",

@@ -12,14 +12,6 @@
       ]
     },
     {
-      "id": "students-with-disabilities",
-      "class": "fa fa-info",
-      "title": "Students with Disabilities",
-      "content": [
-        "Students with disabilities can find support information from the University <a href=\"https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html\" target=\"_blank\" rel=\"noopener\">here</a>."
-      ]
-    },
-    {
       "id": "learning-outcomes",
       "class": "fa fa-list",
       "title": "Learning Outcomes",
@@ -37,6 +29,16 @@
       ]
     },
     {
+      "id": "class-policies",
+      "class": "fa fa-gavel",
+      "title": "Class Policies",
+      "content": [
+        "<strong>Consuming food in class.</strong> There is <em>no</em> eating <em>inside</em> our classroom. The smell of food is very distracting, even offensive to some, and can linger in a room. Drinks in covered containers, however, are allowed.",
+        "<strong>Attendance.</strong> Attending lectures is crucial, for obvious reasons. Aside from emergencies, everyone should attend each session. If you are absent for any reason, you are responsible for all the material and announcements covered in the session you missed. Do not ask me for notes, as I do not have any to share. Make one or more note-taking friends in class so you can share notes.",
+        "<strong>Lateness.</strong> If you come to class late and miss roll call at the beginning of class, I will not interrupt the lecture to update my roster from absent to late. It is your responsibility to come to me after class to let me know that were late. This has to be done in person and on the day you are late. Otherwise, the absence remains. Also, bear in mind that you are responsible for any announcements and/or material you missed before your late arrival to class."
+      ]
+    },
+    {
       "id": "software-requirements",
       "class": "fa fa-download",
       "title": "Software Requirements",
@@ -47,7 +49,7 @@
         {
           "section_sub_heading": "GitHub (Mac, Windows, and Linux)",
           "content": [
-          "All in-class examples, assignments, and help is done via GitHub. Once you’ve opened an account at <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener\">GitHub</a>, download the client for your computer <a href=\"https://desktop.github.com/\" target=\"_blank\" rel=\"noopener\">here</a>."
+            "All in-class examples, assignments, and help is done via GitHub. Once you’ve opened an account at <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener\">GitHub</a>, download the client for your computer <a href=\"https://desktop.github.com/\" target=\"_blank\" rel=\"noopener\">here</a>."
           ]
         },
         {
@@ -101,13 +103,19 @@
       ]
     },
     {
-      "id": "class-policies",
-      "class": "fa fa-gavel",
-      "title": "Class Policies",
+      "id": "students-with-disabilities",
+      "class": "fa fa-info",
+      "title": "Students with Disabilities",
       "content": [
-        "<strong>Consuming food in class.</strong> There is <em>no</em> eating <em>inside</em> our classroom. The smell of food is very distracting, even offensive to some, and can linger in a room. Drinks in covered containers, however, are allowed.",
-        "<strong>Attendance.</strong> Attending lectures is crucial, for obvious reasons. Aside from emergencies, everyone should attend each session. If you are absent for any reason, you are responsible for all the material and announcements covered in the session you missed. Do not ask me for notes, as I do not have any to share. Make one or more note-taking friends in class so you can share notes.",
-        "<strong>Lateness.</strong> If you come to class late and miss roll call at the beginning of class, I will not interrupt the lecture to update my roster from absent to late. It is your responsibility to come to me after class to let me know that were late. This has to be done in person and on the day you are late. Otherwise, the absence remains. Also, bear in mind that you are responsible for any announcements and/or material you missed before your late arrival to class."
+        "Students with disabilities can find support information from the University <a href=\"https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html\" target=\"_blank\" rel=\"noopener\">here</a>."
+      ]
+    },
+    {
+      "id": "contact",
+      "class": "fa fa-envelope",
+      "title": "Contact",
+      "content": [
+        "r.o.y at nyu dot edu is my email address. However, I only communicate with students over email in emergency situations (death, divorce, personal tragedy, pet emergency, etc). For matters related to the class, see me during my office hour or after class."
       ]
     },
     {
@@ -121,14 +129,6 @@
         "<b><a href=\"https://github.com/code-warrior/csci-ua.0004-003--assignments\" target=\"_blank\" rel=\"noopener\">Assignments</a></b>: 40%",
         "<b>Midterm</b>: 25%",
         "<b>Final</b>: 35%"
-      ]
-    },
-    {
-      "id": "contact",
-      "class": "fa fa-envelope",
-      "title": "Contact",
-      "content": [
-        "r.o.y at nyu dot edu is my email address. However, I only communicate with students over email in emergency situations (death, divorce, personal tragedy, pet emergency, etc). For matters related to the class, see me during my office hour or after class."
       ]
     },
     {
