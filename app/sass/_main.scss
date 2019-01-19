@@ -7,6 +7,10 @@ main {
 
    p {
       margin: 0 0 $margin-bottom;
+
+      &:first-of-type {
+         margin-top: 6px;
+      }
    }
 
    .fa {
