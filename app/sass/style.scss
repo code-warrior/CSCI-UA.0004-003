@@ -9,6 +9,7 @@
 @import 'header';
 @import 'nav';
 @import 'main';
+@import 'schedule';
 @import 'footer';
 
 * {
@@ -31,31 +32,6 @@ body {
 
 abbr {
    text-decoration: none;
-}
-
-#schedule {
-   table {
-      margin: auto;
-      width: 100%;
-      table-layout: fixed;
-      border-collapse: collapse;
-
-      thead {
-         th {
-            &:first-of-type {
-               width: 25%;
-            }
-
-            &:nth-child(2) {
-               width: 37.5%;
-            }
-         }
-      }
-
-      td {
-         vertical-align: top;
-      }
-   }
 }
 
 .fa {
