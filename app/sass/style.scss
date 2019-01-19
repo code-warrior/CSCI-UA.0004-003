@@ -19,10 +19,10 @@
 }
 
 :root {
-   @include preserve-css-variable(--text-color, #222);
+   @include preserve-css-variable(--primary-color, #ffc0cb);
+   @include preserve-css-variable(--primary-color--lighter, #ffe9ed);
    @include preserve-css-variable(--secondary-color, #350125);
-   @include preserve-css-variable(--tertiary-color, #ffc0cb);
-   @include preserve-css-variable(--tertiary-color--lighter, #ffe9ed);
+   @include preserve-css-variable(--text-color, #222);
 }
 
 body {
@@ -38,7 +38,7 @@ abbr {
 .fa {
    display: inline-block;
    border-radius: 50%;
-   background-color: var(--tertiary-color);
+   background-color: var(--primary-color);
    width: $background-diameter-for-font-awesome-icon;
    height: $background-diameter-for-font-awesome-icon;
    vertical-align: center;

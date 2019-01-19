@@ -25,7 +25,7 @@ header {
          font-size: 2rem;
 
          span {
-            background-color: var(--tertiary-color);
+            background-color: var(--primary-color);
             padding: 12px;
 
             @media (max-width: $page-width--bet-tablet-and-phone) {
@@ -54,7 +54,7 @@ header {
 }
 
 .masthead {
-   background-color: var(--tertiary-color);
+   background-color: var(--primary-color);
    padding: 12px 0;
    text-align: center;
 
