@@ -12,32 +12,18 @@
 {% for section in sections %}
    <section id="{{ section.id }}">
       <h2><span class="fa-container"><span class="{{ section.class }}"></span></span> {{ section.title }}</h2>
-
-   {% for paragraphs in section.content %}
       <p>{{ paragraphs | safe }}</p>
-   {% endfor %}
 
-   {% for item in section.list %}
-      {% if loop.first %}
       <ul>
          <li>{{ item | safe }}</li>
-      {% else %}
          <li>{{ item | safe }}</li>
-      {% endif %}
 
-      {% if loop.last %}
       </ul>
-      {% endif %}
-   {% endfor %}
 
-   {% for data in section.data %}
       <h3>{{ data.section_sub_heading }}</h3>
       <p>{{ data.content | safe }}</p>
-   {% endfor %}
-
    </section>
 {% endfor %}
-
 </main>
 {% include 'app/controllers/blocks/footer.njk' %}
 </body>
