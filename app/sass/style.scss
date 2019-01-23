@@ -35,6 +35,10 @@ abbr {
    text-decoration: none;
 }
 
+h3 + ul {
+   margin-top: 4px;
+}
+
 .fa {
    display: inline-block;
    border-radius: 50%;
