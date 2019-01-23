@@ -5,6 +5,7 @@ const HTMLCompressor = require(`gulp-htmlmin`);
 const CSSCompiler = require(`gulp-sass`);
 const browserSync = require(`browser-sync`);
 const data = require(`gulp-data`);
+const fs = require(`fs`);
 const reload = browserSync.reload;
 
 /**
@@ -45,13 +46,13 @@ gulp.task(`compileHTMLForDev`, () => {
         `./app/views/*.html/`,
         `./app/views/**/*.html/`])
         .pipe(data(function () {
-            return require(`./app/models/data.json`);
+            return JSON.parse(fs.readFileSync(`./app/models/data.json`));
         }))
         .pipe(data(function () {
-            return require(`./app/models/links.json`);
+            return JSON.parse(fs.readFileSync(`./app/models/links.json`));
         }))
         .pipe(data(function () {
-            return require(`./app/models/sections.json`);
+            return JSON.parse(fs.readFileSync(`./app/models/sections.json`));
         }))
         .pipe(HTMLPreprocessor())
         .pipe(gulp.dest(`./temp`));
