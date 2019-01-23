@@ -1,0 +1,83 @@
+{
+  "links": [
+    {
+      "nav": [
+        {
+          "name": "description",
+          "anchor": "#description",
+          "class": "fa fa-info"
+        },
+        {
+          "name": "learning outcomes",
+          "anchor": "#learning-outcomes",
+          "class": "fa fa-list"
+        },
+        {
+          "name": "class policies",
+          "anchor": "#class-policies",
+          "class": "fa fa-gavel"
+        },
+        {
+          "name": "software requirements",
+          "anchor": "#software-requirements",
+          "class": "fa fa-download"
+        },
+        {
+          "name": "students with disabilities",
+          "anchor": "#students-with-disabilities",
+          "class": "fa fa-info"
+        },
+        {
+          "name": "contact",
+          "anchor": "#contact",
+          "class": "fa fa-envelope"
+        },
+        {
+          "name": "schedule",
+          "anchor": "#schedule",
+          "class": "fa fa-calendar-o"
+        },
+        {
+          "name": "assignments and exams",
+          "anchor": "#assignments-and-exams",
+          "class": "fa fa-pencil"
+        },
+        {
+          "name": "help",
+          "anchor": "#help",
+          "class": "fa fa-question"
+        }
+      ],
+      "footer": [
+        {
+          "name": "roy.vanegas.org",
+          "anchor": "https://roy.vanegas.org/teaching/at-nyu/CSCI-UA.0004-003/"
+        },
+        {
+          "name": "cs.nyu.edu",
+          "anchor": "https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-003/"
+        },
+        {
+          "name": "GitHub",
+          "anchor": "https://github.com/code-warrior/CSCI-UA.0004-003"
+        },
+        {
+          "name": "Nunjucks",
+          "anchor": "https://mozilla.github.io/nunjucks/"
+        },
+        {
+          "name": "Gulp",
+          "anchor": "https://gulpjs.com/"
+        },
+        {
+          "name": "<abbr title='Syntactically Awesome Style Sheets'>Sass</abbr>",
+          "anchor": "https://sass-lang.com/"
+        }
+      ]
+    },
+    {
+      "name": "Fall 2019 Calendar",
+      "anchor": "https://www.nyu.edu/registrar/calendars/university-academic-calendar.html#1194"
+    }
+  ]
+}

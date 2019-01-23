@@ -1,0 +1,44 @@
+{#
+   // ------------------------------------------------------------------------------
+   // HEAD
+   //
+   // For SEO purposes, title should not exceed 65 chars.
+   // <!--                                                          -->
+   //
+   // For SEO purposes, description should not exceed 160 chars
+   // <!--                                                                                                                                                         -->
+   // ------------------------------------------------------------------------------
+#}
+{% macro head(title, description) -%}
+<head>
+   <meta charset="utf-8">
+   <title>{{ title }}</title>
+   <meta name="description" content="{{ description }}">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+{%- endmacro %}
+
+{#
+   // ------------------------------------------------------------------------------
+   // NAV
+   //
+   // currentPage is either an empty string or the name of the current page. If the
+   //    latter, then the class “current” is applied to the <li> element to indicate
+   //    which page is the current page being viewed by the user.
+   //
+   // links is a JSON object that references links.json (in the folder app/models)
+   //    that contains all the names, anchors, and classes used in this navigation.
+   // ------------------------------------------------------------------------------
+#}
+{% macro nav(currentPage, links) -%}
+<nav class="primary-nav">
+   <ul>
+   {% for link in links %}
+      {% for item in link.nav %}
+         <li{% if currentPage == item.name %} class="current"{% endif -%}><a href="{{ item.anchor }}"><span class="{{ item.class }}"></span><br>{{ item.name }}</a></li>
+      {% endfor %}
+   {% endfor %}
+   </ul>
+</nav>
+{%- endmacro %}

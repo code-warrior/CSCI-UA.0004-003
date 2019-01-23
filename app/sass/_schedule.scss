@@ -1,0 +1,39 @@
+@import 'variables';
+
+#schedule {
+   table {
+      margin: (1.4 * $grid--leading) auto;
+      width: 100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+
+      thead {
+         th {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+            font-size: 1.1rem;
+
+            &:first-of-type {
+               width: 25%;
+            }
+
+            &:nth-child(2) {
+               width: 37.5%;
+            }
+         }
+      }
+
+      tbody {
+         tr {
+            &:nth-child(odd) {
+               background-color: var(--primary-color--lighter);
+            }
+         }
+      }
+
+      td {
+         padding: 12px;
+         vertical-align: top;
+      }
+   }
+}

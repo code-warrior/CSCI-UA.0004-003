@@ -1,0 +1,43 @@
+{%- import 'app/controllers/macros/layouts.njk' as layouts -%}
+<!DOCTYPE html>
+<html lang="en">
+   {{ layouts.head('Intro to Web Design and Computer Principles (CSCI-UA.0004) at NYU', 'This course covers web design, the basic principles of computer science, working with graphics, software tools, and an overview of hardware and software.') }}
+<body>
+{% include 'app/controllers/blocks/ie_version_warning.njk' %}
+{% include 'app/controllers/blocks/header.njk' %}
+{{ layouts.nav('home', links) }}
+<main>
+{% for section in sections %}
+   {% if section.id !== "schedule" %}
+   <section id="{{ section.id }}">
+      <h2><span class="fa-container"><span class="{{ section.class }}"></span></span> {{ section.title }}</h2>
+      {% for paragraphs in section.content %}
+      <p>{{ paragraphs | safe }}</p>
+      {% endfor %}
+
+      {% for item in section.list %}
+         {% if loop.first %}
+      <ul>
+         <li>{{ item | safe }}</li>
+         {% else %}
+         <li>{{ item | safe }}</li>
+         {% endif %}
+
+         {% if loop.last %}
+      </ul>
+         {% endif %}
+      {% endfor %}
+
+      {% for data in section.data %}
+      <h3>{{ data.section_sub_heading }}</h3>
+      <p>{{ data.content | safe }}</p>
+      {% endfor %}
+   </section>
+   {% else %}
+      {% include 'app/controllers/blocks/schedule.njk' %}
+   {% endif %}
+{% endfor %}
+</main>
+{% include 'app/controllers/blocks/footer.njk' %}
+</body>
+</html>

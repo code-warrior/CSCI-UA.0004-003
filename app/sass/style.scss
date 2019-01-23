@@ -1,0 +1,47 @@
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Fjord+One');
+
+@import 'variables';
+@import 'mixins';
+@import 'headings';
+@import 'links';
+@import 'header';
+@import 'nav';
+@import 'main';
+@import 'schedule';
+@import 'footer';
+
+* {
+   margin: 0;
+   border: 0;
+   padding: 0;
+}
+
+:root {
+   @include preserve-css-variable(--primary-color, #ffc0cb);
+   @include preserve-css-variable(--primary-color--lighter, #ffe9ed);
+   @include preserve-css-variable(--secondary-color, #350125);
+   @include preserve-css-variable(--text-color, #222);
+}
+
+body {
+   padding-bottom: $grid--leading;
+   color: var(--text-color);
+   font-family: Barlow, sans-serif;
+}
+
+abbr {
+   text-decoration: none;
+}
+
+.fa {
+   display: inline-block;
+   border-radius: 50%;
+   background-color: var(--primary-color);
+   width: $background-diameter-for-font-awesome-icon;
+   height: $background-diameter-for-font-awesome-icon;
+   vertical-align: center;
+   text-align: center;
+   line-height: $background-diameter-for-font-awesome-icon;
+}

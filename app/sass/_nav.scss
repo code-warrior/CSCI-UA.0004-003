@@ -1,0 +1,42 @@
+@import 'variables';
+
+.primary-nav {
+   > ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      width: $page-width--desktop;
+      list-style-type: none;
+
+      @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
+         width: $page-width--tablet;
+      }
+
+      @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
+         width: 80%;
+      }
+
+      > li {
+         width: $width-nav-item--desktop;
+         text-align: center;
+
+         @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
+            width: $width-nav-item--tablet;
+         }
+
+         @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
+            width: 33.333%;
+         }
+
+         a {
+            display: block;
+            transition: 275ms;
+            padding: 12px 0;
+
+            &:hover {
+               background-color: var(--primary-color);
+            }
+         }
+      }
+   }
+}

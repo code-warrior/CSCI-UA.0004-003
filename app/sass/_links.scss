@@ -1,0 +1,26 @@
+@import 'variables';
+
+a {
+   color: var(--secondary-color);
+
+   &:link {
+      text-decoration: none;
+   }
+}
+
+main {
+   a {
+      transition: 275ms;
+
+      &:link,
+      &:visited {
+         border-bottom: 2px solid var(--primary-color);
+         border-radius: 4px;
+         padding: 2px 0;
+      }
+
+      &:hover {
+         background-color: var(--primary-color);
+      }
+   }
+}

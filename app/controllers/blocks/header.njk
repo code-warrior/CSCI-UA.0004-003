@@ -1,0 +1,14 @@
+<header>
+   <div>
+      <h1><span>Intro to Web Design &amp; Computer Principles</span></h1>
+      <p class="masthead">
+         {% for data in data %}
+            {% for section in data.section %}
+               {% for content in section.content %}
+                  <span>{{ content | safe }}</span>
+               {% endfor %}
+            {% endfor %}
+         {% endfor %}
+      </p>
+   </div>
+</header>

@@ -1,0 +1,146 @@
+{
+  "sections": [
+    {
+      "id": "description",
+      "class": "fa fa-info",
+      "title": "Description",
+      "content": [
+        "As its title suggests, this course covers the basic ideas, languages, and tools used in the design and construction of modern web pages, and introduces students to a subset of computing principles as they relate to The Web.",
+        "<strong>Note</strong>: There is no prerequisite for this course.",
+        "The common syllabus across all sections of CSCI-UA.0004 may be found <a href=\"https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-001/common-syllabus/\" target=\"_blank\" rel=\"noopener\">here</a>.",
+        "<b>Textbook</b>: <i><a href=\"http://shop.oreilly.com/product/0636920051626.do\" target=\"_blank\" rel=\"noopener\">Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics</a></i> (5th Edition). Jennifer Niederst Robbins. <abbr title=\"International Standard Book Number\">ISBN</abbr>: 978‒1‒491‒96020‒2"
+      ]
+    },
+    {
+      "id": "learning-outcomes",
+      "class": "fa fa-list",
+      "title": "Learning Outcomes",
+      "content": [
+        "Upon successful completion of this course, students will understand..."
+      ],
+      "list": [
+        "how to interact with a computer using basic command line interface instructions;",
+        "how to semantically combine HTML with content",
+        "how to style HTML with CSS;",
+        "how HTML, CSS, and JavaScript work in concert to create interactive web sites;",
+        "what role jQuery plays (and has played since 2005) in the web ecosystem;",
+        "how to revision control your work using GitHub;",
+        "and, finally, how to properly set type on web sites."
+      ]
+    },
+    {
+      "id": "class-policies",
+      "class": "fa fa-gavel",
+      "title": "Class Policies",
+      "content": [
+        "<strong>Consuming food in class.</strong> There is <em>no</em> eating <em>inside</em> our classroom. The smell of food is very distracting, even offensive to some, and can linger in a room. Drinks in covered containers, however, are allowed.",
+        "<strong>Attendance.</strong> Attending lectures is crucial, for obvious reasons. Aside from emergencies, everyone should attend each session. If you are absent for any reason, you are responsible for all the material and announcements covered in the session you missed. Please do not ask me for notes, as I do not have any to share. Make one or more note-taking friends in class so you can share notes.",
+        "<strong>Lateness.</strong> If you come to class late and miss roll call at the beginning of class, I will not interrupt the lecture to update my roster from “absent” to “late.” It is your responsibility to come to me after class to let me know that were late. This has to be done in person and on the day you are late. Otherwise, the absence remains. Also, bear in mind that you are responsible for any announcements and/or material you missed before your late arrival to class."
+      ]
+    },
+    {
+      "id": "software-requirements",
+      "class": "fa fa-download",
+      "title": "Software Requirements",
+      "content": [
+        "All the required software for this course is free. For Mac users, the installation process is automated using <a href=\"https://github.com/code-warrior/install-web-dev-software\" target=\"_blank\" rel=\"noopener\">this script</a>. Windows and Linux users, however, will need to install the software manually. See below."
+      ],
+      "data": [
+        {
+          "section_sub_heading": "GitHub (Mac, Windows, and Linux)",
+          "content": [
+            "All in-class examples, assignments, and help is done via GitHub. Once you’ve opened an account at <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener\">GitHub</a>, download the client for your computer <a href=\"https://desktop.github.com/\" target=\"_blank\" rel=\"noopener\">here</a>."
+          ]
+        },
+        {
+          "section_sub_heading": "Text Editor (Mac, Windows, and Linux)",
+          "content": [
+            "The code you write will require a text editor. And, although there are many on the market, such as Brackets (open source), Sublime Text (nagware), and Visual Studio Code (open source), <a href=\"https://atom.io/\" target=\"_blank\" rel=\"noopener\">Atom</a> (open source) is the only editor supported in class."
+          ]
+        },
+        {
+          "section_sub_heading": "Markdown Editor/Viewer (Mac, Windows, and Linux)",
+          "content": [
+            "Although a text editor will suffice to view and edit Markdown files, some may want a full-featured program to deal with Markdown. We’ll use <a href=\"https://typora.io/\" target=\"_blank\" rel=\"noopener\">Typora</a> in class."
+          ]
+        },
+        {
+          "section_sub_heading": "Browsers (Mac and Windows)",
+          "content": [
+            "Download all the browsers available at <a href=\"https://browsehappy.com/\" target=\"_blank\" rel=\"noopener\">Browse Happy</a>. Some of the students in my more in-depth classes might also want <a href=\"https://www.google.com/chrome/browser/canary.html\" target=\"_blank\" rel=\"noopener\">Chrome Canary</a>, <a href=\"https://developer.apple.com/safari/technology-preview/\" target=\"_blank\" rel=\"noopener\">Safari Technology Preview</a>, <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#developer\" target=\"_blank\" rel=\"noopener\">Firefox Developer Edition</a>, and <a href=\"https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly\" target=\"_blank\" rel=\"noopener\">Firefox Nightly</a>. I use Chrome and Firefox in class."
+          ]
+        },
+        {
+          "section_sub_heading": "File Transfer Protocol (Mac, Windows, and Linux)",
+          "content": [
+            "To transfer files between our local machines and a server, we’ll use <a href=\"https://filezilla-project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener\">FileZilla</a>."
+          ]
+        },
+        {
+          "section_sub_heading": "Fonts (Mac, Windows, and Linux)",
+          "content": [
+            "In addition to the stock issue, monospace/fixed-width fonts included with your <abbr title=\"Operating System\">OS</abbr>, give <a href=\"https://github.com/IBM/plex/releases/tag/v1.2.3\" target=\"_blank\" rel=\"noopener\">IBM Plex</a>, <a href=\"https://www.fontsquirrel.com/fonts/fira-mono\" target=\"_blank\" rel=\"noopener\">Fira Mono</a>, <a href=\"https://design.ubuntu.com/font/\" target=\"_blank\" rel=\"noopener\">Ubuntu Mono</a>, <a href=\"https://www.fontsquirrel.com/fonts/Anonymous-Pro\" target=\"_blank\" rel=\"noopener\">Anonymous Pro</a>, or <a href=\"https://www.fontsquirrel.com/fonts/Inconsolata\" target=\"_blank\" rel=\"noopener\">Inconsolata</a> a try."
+          ]
+        },
+        {
+          "section_sub_heading": "Command Line Interface",
+          "content": [
+            "Mac and Linux users do not have to install a Command Line Interface, or <abbr title=\"Command Line Interface\">CLI</abbr>, because these operating systems already have The Terminal installed. Windows users, however, might want to install <a href=\"https://cygwin.com/install.html\" target=\"_blank\" rel=\"noopener\">Cygwin</a>."
+          ]
+        },
+        {
+          "section_sub_heading": "Browser Extension for Accessibility Testing",
+          "content": [
+            "Available for Chrome and Firefox, <a href=\"https://www.deque.com/axe/\" target=\"_blank\" rel=\"noopener\">Axe</a> is a browser extension that checks the accessibility of your web pages."
+          ]
+        },
+        {
+          "section_sub_heading": "Web Development Environment Configuration Files",
+          "content": [
+            "Once all the software above has been installed, go <a href=\"https://github.com/code-warrior/web-dev-env-config-files\" target=\"_blank\" rel=\"noopener\">here</a> and follow the instructions in the README.md file, which you should open in Typora."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "students-with-disabilities",
+      "class": "fa fa-info",
+      "title": "Students with Disabilities",
+      "content": [
+        "Students with disabilities can find support information from the University <a href=\"https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html\" target=\"_blank\" rel=\"noopener\">here</a>."
+      ]
+    },
+    {
+      "id": "contact",
+      "class": "fa fa-envelope",
+      "title": "Contact",
+      "content": [
+        "r.o.y at nyu dot edu is my email address. However, I only communicate with students over email in emergency situations (death, divorce, personal tragedy, pet emergency, etc). For matters related to the class, see me during my office hour or after class."
+      ]
+    },
+    {
+      "id": "schedule"
+    },
+    {
+      "id": "assignments-and-exams",
+      "class": "fa fa-pencil",
+      "title": "Assignments and Exams",
+      "content": [
+        "Your final grade is calculated using the following formula:"
+      ],
+      "list": [
+        "<b><a href=\"https://github.com/code-warrior/csci-ua.0004-003--assignments\" target=\"_blank\" rel=\"noopener\">Assignments</a></b>: 40%",
+        "<b>Midterm</b>: 25%",
+        "<b>Final</b>: 35%"
+      ]
+    },
+    {
+      "id": "help",
+      "class": "fa fa-question",
+      "title": "Help",
+      "content": [
+        "I’m available to help you during my office hour, which is 2:00–3:00PM on Mondays in room 308 of Warren Weaver Hall. If you need help outside of this time slot, you can also meet with a tutor. See the <b>Tutoring</b> section of the <a href=\"https://cs.nyu.edu/courses/spring19/CSCI-UA.0004-001/common-syllabus/\" target=\"_blank\" rel=\"noopener\">general syllabus</a> for time and place."
+      ]
+    }
+  ]
+}
