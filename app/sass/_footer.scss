@@ -1,6 +1,14 @@
 @import 'variables';
 
 footer {
+   margin-top: $grid--leading;
+   background-color: var(--primary-color--lighter);
+
+   padding: {
+      top: $grid--leading;
+      bottom: $grid--leading;
+   }
+
    nav {
       margin: auto;
       text-align: center;
