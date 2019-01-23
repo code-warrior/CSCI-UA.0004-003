@@ -23,6 +23,7 @@
    @include preserve-css-variable(--primary-color--lighter, #ffe9ed);
    @include preserve-css-variable(--secondary-color, #350125);
    @include preserve-css-variable(--text-color, #222);
+   @include preserve-css-variable(--tertiary-color, #fff);
 }
 
 body {
