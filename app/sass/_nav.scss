@@ -1,6 +1,8 @@
 @import 'variables';
 
 .primary-nav {
+   background-color: var(--primary-color--lighter);
+
    > ul {
       display: flex;
       flex-wrap: wrap;
