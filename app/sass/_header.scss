@@ -5,12 +5,7 @@ header {
 
    div {
       margin: auto;
-      width: $page-width--desktop;
       text-align: center;
-
-      @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
-         width: $page-width--tablet;
-      }
 
       @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
          width: 82%;
