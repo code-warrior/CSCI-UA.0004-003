@@ -24,15 +24,6 @@ header {
          color: var(--secondary-color);
          font-size: 2rem;
 
-         span {
-            background-color: var(--primary-color);
-            padding: 12px;
-
-            @media (max-width: $page-width--bet-tablet-and-phone) {
-               padding: 4px;
-            }
-         }
-
          @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
             letter-spacing: normal;
             font-size: 1.75rem;
