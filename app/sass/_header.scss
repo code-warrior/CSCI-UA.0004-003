@@ -42,35 +42,37 @@ header {
 }
 
 .masthead {
-   background-color: var(--primary-color);
-   padding: 12px 0;
-   text-align: center;
+   background-color: var(--tertiary-color);
 
-   @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
-      font-size: .85rem;
-   }
+   > p {
+      padding: 12px 0;
 
-   @media (max-width: 640px) {
-      font-size: .75rem;
-   }
-
-   span {
-      &:not(:last-of-type) {
-         &::after {
-            content: ' ⋯ ';
-
-            @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
-               content: ' ⋯ ';
-            }
-
-            @media (max-width: 640px) {
-               content: none;
-            }
-         }
+      @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
+         font-size: .85rem;
       }
 
-      @media (max-width: 640px) {
-         display: block;
+      @media (max-width: $page-width--masthead) {
+         font-size: .75rem;
+      }
+
+      span {
+         &:not(:last-of-type) {
+            &::after {
+               content: ' ⋯ ';
+
+               @media (max-width: ($page-width--tablet + $grid--gutter-width)) {
+                  content: ' ⋯ ';
+               }
+
+               @media (max-width: $page-width--masthead) {
+                  content: none;
+               }
+            }
+         }
+
+         @media (max-width: $page-width--masthead) {
+            display: block;
+         }
       }
    }
 }
