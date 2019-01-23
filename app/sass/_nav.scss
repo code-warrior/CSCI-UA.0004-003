@@ -22,6 +22,20 @@
          width: $width-nav-item--desktop;
          text-align: center;
 
+         // Style the first row of nav items
+         &:nth-child(-n+3) {
+            a {
+               padding-top: $grid--leading;
+            }
+         }
+
+         // Style the last row of nav items
+         &:nth-child(n+7) {
+            a {
+               padding-bottom: $grid--leading + 2;
+            }
+         }
+
          @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
             width: $width-nav-item--tablet;
          }
