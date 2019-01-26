@@ -7,4 +7,3 @@ The syllabus web site for section 003 of Introduction to Web Design and Computer
 
 ## Mirror
 [`https://roy.vanegas.org/teaching/at-nyu/CSCI-UA.0004-003/`](https://roy.vanegas.org/teaching/at-nyu/CSCI-UA.0004-003/)
-
