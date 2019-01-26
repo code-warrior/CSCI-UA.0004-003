@@ -15,8 +15,8 @@ $leading:            1.4;
 //// ===============================================================================
 /// Page Widths
 //// ===============================================================================
-$page-width--desktop:              (12 * $grid--unit);
-$page-width--tablet:               (9.6 * $grid--unit);
+$page-width--desktop:              (12 * $grid--unit);      // 960px
+$page-width--tablet:               (9.6 * $grid--unit);     // 768px
 $page-width--masthead:             (8 * $grid--unit);       // 640px
 $page-width--bet-tablet-and-phone:  570px;
 
