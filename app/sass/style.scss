@@ -53,3 +53,16 @@ h3 + ul {
    text-align: center;
    line-height: $background-diameter-for-font-awesome-icon;
 }
+
+ul {
+   li {
+      ul {
+         margin-left: (2 * $grid--gutter-width);
+         list-style-type: none;
+
+         @media (max-width: ($page-width--desktop + $grid--gutter-width)) {
+            margin-left: (1 * $grid--gutter-width);
+         }
+      }
+   }
+}
